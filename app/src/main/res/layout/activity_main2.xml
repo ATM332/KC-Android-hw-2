@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7FA7CA"
+    android:backgroundTint="#A0BCD5"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/CV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CV"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="170dp"/>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="name"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/userAge"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="age"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/userJob"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="your job"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/userPhone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="phone number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="email"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+
+</LinearLayout>
