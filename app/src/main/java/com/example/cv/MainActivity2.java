@@ -24,7 +24,7 @@ public class MainActivity2 extends AppCompatActivity {
         TextView userPhone = findViewById(R.id.userPhone);
         TextView userEmail = findViewById(R.id.userEmail);
 
-        //bonus 
+        //bonus
         userPhone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
